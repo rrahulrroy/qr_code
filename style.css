@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: hsl(212, 45%, 89%);
+}
+
+.qrbox {
+    display: flex;
+    flex-direction: column;
+    width:320px;
+    height: 500px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+img {
+    border-radius: 12px;
+    margin: 15px;
+}
+
+.info {
+    font-family: outfit;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
